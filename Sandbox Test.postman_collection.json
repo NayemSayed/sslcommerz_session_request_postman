@@ -1,0 +1,469 @@
+{
+	"id": "3eab3a18-debe-3b02-abd4-db3db00596d3",
+	"name": "Sandbox Test",
+	"description": "",
+	"order": [
+		"622a68c7-ed06-0176-d827-763e664b994f",
+		"849bb252-b2d6-fcbc-50f0-00546bb47195"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1521464286564,
+	"owner": "2708815",
+	"public": false,
+	"requests": [
+		{
+			"id": "622a68c7-ed06-0176-d827-763e664b994f",
+			"headers": "",
+			"headerData": [],
+			"url": "https://sandbox.sslcommerz.com/gwprocess/v3/api.php",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "store_id",
+					"value": "testbox",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "store_passwd",
+					"value": "qwerty",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "total_amount",
+					"value": "100",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "currency",
+					"value": "BDT",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tran_id",
+					"value": "REF123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "success_url",
+					"value": "http://yoursite.com/success.php",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "fail_url",
+					"value": "http://yoursite.com/fail.php",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cancel_url",
+					"value": "http://yoursite.com/cancel.php",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_name",
+					"value": "Customer Name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_email",
+					"value": "cust@yahoo.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_add1",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_add2",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_city",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_state",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_postcode",
+					"value": "1000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_country",
+					"value": "Bangladesh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_phone",
+					"value": "01711111111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_fax",
+					"value": "01711111111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_name",
+					"value": "Customer Name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_add1",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_add2",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_city",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_state",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_postcode",
+					"value": "1000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_country",
+					"value": "Bangladesh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "value_a",
+					"value": "ref001_A",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "value_b",
+					"value": "ref002_B",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "value_c",
+					"value": "ref002_C",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "value_d",
+					"value": "ref002_D",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1521464618422,
+			"name": "https://sandbox.sslcommerz.com/gwprocess/v3/api.php",
+			"description": "Sandbox Test",
+			"collectionId": "3eab3a18-debe-3b02-abd4-db3db00596d3",
+			"responses": []
+		},
+		{
+			"id": "849bb252-b2d6-fcbc-50f0-00546bb47195",
+			"headers": "",
+			"headerData": [],
+			"url": "https://sandbox.sslcommerz.com/gwprocess/v3/api.php",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3eab3a18-debe-3b02-abd4-db3db00596d3",
+			"data": [
+				{
+					"key": "store_id",
+					"value": "const5aae327eea6d3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "store_passwd",
+					"value": "const5aae327eea6d3@ssl",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "total_amount",
+					"value": "100",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "currency",
+					"value": "BDT",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tran_id",
+					"value": "REF123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "success_url",
+					"value": "http://nirvor.constatntrx.com/payment/successed",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "fail_url",
+					"value": "http://nirvor.constantrx.com/payment/failed",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cancel_url",
+					"value": "http://nirvor.constantrx.com/payment/cancelled",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_name",
+					"value": "Customer Name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_email",
+					"value": "cust@yahoo.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_add1",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_add2",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_city",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_state",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_postcode",
+					"value": "1000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_country",
+					"value": "Bangladesh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_phone",
+					"value": "01711111111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cus_fax",
+					"value": "01711111111",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_name",
+					"value": "Customer Name",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_add1",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_add2",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_city",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_state",
+					"value": "Dhaka",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_postcode",
+					"value": "1000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "ship_country",
+					"value": "Bangladesh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "value_a",
+					"value": "ref001_A",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "value_b",
+					"value": "ref002_B",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "value_c",
+					"value": "ref002_C",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "value_d",
+					"value": "ref002_D",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "https://sandbox.sslcommerz.com/gwprocess/v3/api.php",
+			"description": "Sandbox Test",
+			"descriptionFormat": "html",
+			"time": 1521465176801,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
